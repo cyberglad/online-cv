@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
- {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+en de fr es ru it
 
 {% include career-profile.html %}
 
